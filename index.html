@@ -5,22 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Курс валют</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <div class="wrapper">
+        <h1>Курс валют</h1>
 
-<h1>Курс валют</h1>
+        <div id="rates"></div>
 
-<div id="rates"></div>
+        <h2>Узнать курс валюты</h2>
 
-<h2>Узнать курс валюты</h2>
+        <form id="form">
+            <input type="text" id="currency" placeholder="Название или код валюты">
+            <button type="submit">Показать курс</button>
+        </form>
 
-<form id="form">
-    <input type="text" id="currency" placeholder="Название или код валюты">
-    <button type="submit">Показать курс</button>
-</form>
-
-<p id="result"></p>
-
+        <p id="result"></p>
+    </div>
 <script src="script.js"></script>
 </body>
 </html>
