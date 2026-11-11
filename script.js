@@ -34,10 +34,8 @@ async function loadRates() {
 
             if (rate > previousRate) {
                 arrow.innerHTML = ' <img src="up.png">';
-                arrow.style.color = "green";
             } else if (rate < previousRate) {
                 arrow.innerHTML = ' <img src="down.png">';
-                arrow.style.color = "red";
             } else {
                 arrow.innerHTML = ' <img src="straight.png">';
             }
