@@ -33,11 +33,11 @@ async function loadRates() {
             const arrow = document.createElement("span");
 
             if (rate > previousRate) {
-                arrow.innerHTML = ' <img src="up.png">';
+                arrow.innerHTML = ' <img src="upArrow.png">';
             } else if (rate < previousRate) {
-                arrow.innerHTML = ' <img src="down.png">';
+                arrow.innerHTML = ' <img src="downArrow.png">';
             } else {
-                arrow.innerHTML = ' <img src="straight.png">';
+                arrow.innerHTML = ' <img src="straightArrow.png">';
             }
 
             p.append(arrow);
